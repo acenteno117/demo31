@@ -1,0 +1,29 @@
+header{
+   // background: $primerColor;
+   
+    ul li{
+    color: $colorBanner;
+       
+        list-style: none;
+
+    }
+}
+
+.banner{
+    background-image: url(/img/banner.jpg);
+    height: 600px;
+    clip-path: polygon(0% 1%, 100% 1%, 100% 77%, 57% 94%, 0 76%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    .btn-banner{
+        width: 420px;
+        height: 45px;
+    }
+}

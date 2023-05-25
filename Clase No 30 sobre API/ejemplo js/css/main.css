@@ -1,0 +1,30 @@
+footer {
+  background-color: rgba(37, 37, 37, 0.8);
+  color: #34c;
+  height: 400px;
+}
+
+header ul li {
+  color: rgba(218, 3, 3, 0.8);
+  list-style: none;
+}
+
+.banner {
+  background-image: url(/img/banner.jpg);
+  height: 600px;
+  -webkit-clip-path: polygon(0% 1%, 100% 1%, 100% 77%, 57% 94%, 0 76%);
+          clip-path: polygon(0% 1%, 100% 1%, 100% 77%, 57% 94%, 0 76%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h2 {
+  color: white;
+}
+.banner p {
+  color: white;
+}
+.banner .btn-banner {
+  width: 420px;
+  height: 45px;
+}
